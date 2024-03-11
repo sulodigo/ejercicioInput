@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<!-- <p>Construir una página que tenga 2 input para que el usuario indique el alto y ancho de un rectángulo y un botón para desplegar el valor del perímetro en un nuevo div. Debe crearse la clase rectángulo, instanciar un nuevo objeto de la clase creada y utilizar una función que reciba el objeto y devuelva el perímetro. El valor devuelto será escrito en el div de la página.</p> -->
+   
+<div id="divRectangulo" class="form-group">
+    <h1 class="text-center">Calculando rectángulo</h1><br><br>
+    <form class="form-horizontal" style="margin:0 auto">
+        <div class="form-group">
+            <label class="col-lg-4 control-label">Ingrese alto</label>
+            <div class="col-lg-4">
+                <input type="text" id="altoInput" class="form-control" name="alto" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-lg-4 control-label">Ingrese ancho</label>
+            <div class="col-lg-4">
+                <input type="text" id="anchoInput" class="form-control" name="ancho" /><br>
+            </div>
+        <div class="form-group">
+            <div class="col-lg-4">
+                <button type="submit" class="btn btn-success left" id="btnCalcular">Calcular</button>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <div id="resultado">
+            <div class="container"><h5>Resultado</h5></div>
+        </div>
+    </form>
+        
+</div>
+
+</body>
+
+<script src="./ejercicio_01.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/></script>
+</html>
